@@ -21,7 +21,7 @@ function jumpto
 #echo help and exit (function)
 function echohelp
 {
-echo -e "\nSyntax: ./ModMan <OPTION>\n \nAvailable Options: \n--remove, -r (Starts Remove mode) \n--new, -n (Starts Adding mode) \n--help, -h (Display this Help message)\n--select, -s, no option (Select a preset) \n"
+echo -e "\nSyntax: ./ModMan <OPTION>\n \nAvailable Options: \n--open, -o (Open the folder of a preset) \n--info, -i (Displays the mod list of a preset) \n--remove, -r (Starts Remove mode) \n--new, -n (Starts Adding mode) \n--help, -h (Display this Help message)\n--select, -s, no option (Select a preset) \n"
 exit
 }
 
